@@ -25,12 +25,8 @@ Usage: jenv <command> <candidate> [version]
         version   or v
         broadcast or b
         help      or h
-        offline           <enable|disable>
         selfupdate        [-Force]
-        flush             <candidates|broadcast|archives|temp>
-    candidate  :  $($Script:GVM_CANDIDATES -join ', ')
-	
-    version    :  where optional, defaults to latest stable if not provided
+        version    :  where optional, defaults to latest stable if not provided
 
 eg: jenv install groovy
 "@
