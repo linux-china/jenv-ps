@@ -11,3 +11,10 @@ Execute following command In your power shell console
 if you use ps-get, please use following command:
 
      install-module -ModuleUrl https://jenv.io/jenv-ps.zip
+
+### Development
+ 
+
+    git clone  git@github.com:linux-china/jenv-ps.git  C:\Users\xxxxx\Documents\WindowsPowerShell\Modules\jenv
+    Get-Module -ListAvailable
+    Import-Module -Verbose -Name jenv
